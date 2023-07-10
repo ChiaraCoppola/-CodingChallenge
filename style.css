@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.Padre {
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+    margin: 4% auto;
+    height: 650px;
+
+}
+
+.Padre>header {
+    text-align: center;
+}
+
+.Padre img {
+    width: 160px;
+    margin-top: 4%;
+}
+
+.Padre h1 {
+    color: #00DD01;
+}
+
+.Padre nav {
+    background-color: #00DD01;
+    width: 80%;
+    margin: auto;
+}
+
+.Padre nav>button {
+    padding: 2px;
+    margin: 5px;
+}
+
+main {
+    margin-left: 10%;
+
+}
+
+.monopattino {
+    color: white;
+    font-size: 20px;
+    font-family: 'Architects Daughter';
+    margin-top: 3%;
+    font-weight: bold;
+    height: 90px;
+
+}
+
+
+.freccia {
+    font-size: 15px;
+}
+
+.testo {
+    font-size: 15px;
+    font-family: 'Architects Daughter';
+    font-weight: lighter;
+}
+
+.carica {
+    font-size: 15px;
+    font-family: 'Architects Daughter';
+    font-weight: lighter;
+}
+
+.progress-bar1 {
+    background-color: #F5B453;
+    height: 20px;
+    padding: 5px;
+    width: 30%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.progress-bar2 {
+    background-color: #1EC31E;
+    height: 20px;
+    padding: 5px;
+    width: 60%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.progress-bar3 {
+    background-color: #BE4141;
+    height: 20px;
+    padding: 5px;
+    width: 15%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
